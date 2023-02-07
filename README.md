@@ -14,6 +14,6 @@ The whole project was coded using vanilla javascript
 ## Screenshots
 
 ### Homepage
-![Homepage]()
+![Homepage](https://github.com/SamuelBAlba/ForecastPortfolio/blob/main/assets/homePage.png)
 
 
