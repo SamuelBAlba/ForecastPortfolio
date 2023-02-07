@@ -18,7 +18,11 @@ Home page is the first component of my project.
 ![Homepage](https://github.com/SamuelBAlba/ForecastPortfolio/blob/main/assets/homePage.png)
 
 ### Search page
-This is the second page where all the magic happens, enter a city and get some data.
-!
+This is the second page where all the magic happens. Enter a city and get some data regarding the weather plus an extra recommendation.
+![Search page](https://github.com/SamuelBAlba/ForecastPortfolio/blob/main/assets/SearchPage.png)
+
+### About me
+The last page is some basic information about me and how to intercat with me via Github.
+![About me](https://github.com/SamuelBAlba/ForecastPortfolio/blob/main/assets/aboutMe.png)
 
 
