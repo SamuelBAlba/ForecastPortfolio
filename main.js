@@ -4,7 +4,7 @@ const genericInfo = document.querySelector('.generic')
 const weatherFact = document.querySelector(".weatherInfo")
 const brickP = document.querySelector('img')
 const basicInfo = document.querySelector('.basic')
-const nList = document.querySelector('ul')
+const nList = document.querySelector('.basicDiv')
 
 
 document.querySelector('form').addEventListener('submit', (event) => {
@@ -64,10 +64,10 @@ document.querySelector('form').addEventListener('submit', (event) => {
              brickP.setAttribute("src", "./assets/Brick.jpeg")
 
              const pBasic = document.createElement('p')
-             pBasic.innerText = "I suggest you avoid this area fam"
+             pBasic.innerText = "I suggest you avoid this area fam."
              weatherInfo.append(pBasic)
 
-            const pNecc = document.createElement('li')
+            const pNecc = document.createElement('p')
             pNecc.innerText = 'You need a GOOD coat, scarf and a cozy hat.'
             nList.append(pNecc)
 
@@ -77,7 +77,7 @@ document.querySelector('form').addEventListener('submit', (event) => {
             brickP.setAttribute("src", "./assets/over85.png")
 
             const pNecc = document.createElement('li')
-            pNecc.innerText = 'Some shorts, your shades and a cold drink'
+            pNecc.innerText = 'Some shorts, your shades and a cold drink.'
             nList.append(pNecc)
             
 
@@ -91,13 +91,26 @@ document.querySelector('form').addEventListener('submit', (event) => {
             pBasic.innerText = "Enjoy the calm weather"
             weatherInfo.append(pBasic)
 
-            const pNecc = document.createElement('li')
-            pNecc.innerText = 'A pair of pants, jacket and maybe a sweater will do'
+            const pNecc = document.createElement('p')
+            pNecc.innerText = 'A pair of pants, jacket and maybe a sweater will do.'
             nList.append(pNecc)
 
         }
+
+        if(weather.current_condition[0].uvIndex >= 5){
+            const indexP = document.createElement('li')
+            indexP.innerText = "Dont forget some good old sunscreen."
+            nList.append(indexP)
+        }
+
+
+
+        
         
     })
 })
+
+
+
 
 
